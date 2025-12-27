@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Centre Dentaire Perfect Smile - Dr. Salma Haddou à Berkane, Maroc. Soins dentaires professionnels, esthétique du sourire et prévention.">
+    <meta name="keywords" content="dentiste, Berkane, soins dentaires, esthétique dentaire, Dr. Salma Haddou">
+    <title>Centre Dentaire – Perfect Smile | Dr. Salma Haddou</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <h2 data-i18n="clinic-name">Centre Dentaire – Perfect Smile</h2>
+                </div>
+
+                <!-- Language Switcher -->
+                <div class="language-switcher">
+                    <button class="lang-btn active" data-lang="fr" aria-label="Français">FR</button>
+                    <button class="lang-btn" data-lang="ar" aria-label="العربية">AR</button>
+                    <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
+                    <button class="lang-btn" data-lang="es" aria-label="Español">ES</button>
+                    <button class="lang-btn" data-lang="de" aria-label="Deutsch">DE</button>
+                </div>
+
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+            <!-- Navigation Links -->
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" data-i18n="nav-home">Accueil</a></li>
+                <li><a href="#about" data-i18n="nav-about">À propos</a></li>
+                <li><a href="#services" data-i18n="nav-services">Services</a></li>
+                <li><a href="#appointment" data-i18n="nav-appointment">Rendez-vous</a></li>
+                <li><a href="#contact" data-i18n="nav-contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-i18n="hero-title">Centre Dentaire – Perfect Smile</h1>
+                <p class="hero-subtitle" data-i18n="hero-subtitle">Dr. Salma Haddou</p>
+                <p class="hero-slogan" data-i18n="hero-slogan">Votre sourire, notre priorité. Des soins dentaires
+                    professionnels dans un environnement moderne et accueillant.</p>
+                <a href="#appointment" class="cta-button" data-i18n="hero-cta">Prendre Rendez-vous</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-i18n="about-title">À Propos de Notre Centre</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-i18n="about-p1">
+                        Bienvenue au Centre Dentaire Perfect Smile, dirigé par le Dr. Salma Haddou, situé au cœur de
+                        Berkane, Maroc.
+                        Notre mission est de vous offrir des soins dentaires de la plus haute qualité dans un
+                        environnement professionnel,
+                        moderne et chaleureux.
+                    </p>
+                    <p data-i18n="about-p2">
+                        Nous mettons l'accent sur la prévention, l'hygiène rigoureuse et le confort de nos patients.
+                        Notre équipe expérimentée utilise les dernières technologies pour garantir des résultats
+                        exceptionnels
+                        et un sourire éclatant.
+                    </p>
+                    <p data-i18n="about-p3">
+                        Que vous ayez besoin de soins dentaires généraux, d'esthétique du sourire ou de traitements
+                        préventifs,
+                        nous sommes là pour vous accompagner à chaque étape de votre parcours vers une santé
+                        bucco-dentaire optimale.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <svg width="100" height="100" viewBox="0 0 100 100" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="45" stroke="#4A90E2" stroke-width="3" fill="none" />
+                            <path d="M35 50 Q50 65 65 50" stroke="#4A90E2" stroke-width="3" fill="none"
+                                stroke-linecap="round" />
+                            <circle cx="40" cy="40" r="3" fill="#4A90E2" />
+                            <circle cx="60" cy="40" r="3" fill="#4A90E2" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title" data-i18n="services-title">Nos Services</h2>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="30" cy="30" r="25" stroke="#4A90E2" stroke-width="2" />
+                            <path d="M20 30 L27 37 L40 24" stroke="#4A90E2" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3 data-i18n="service1-title">Dentisterie Générale</h3>
+                    <p data-i18n="service1-desc">Examens complets, détartrage, plombages et soins dentaires de routine
+                        pour maintenir votre santé bucco-dentaire.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M30 10 L35 25 L50 25 L38 35 L43 50 L30 40 L17 50 L22 35 L10 25 L25 25 Z"
+                                stroke="#7ED957" stroke-width="2" fill="none" />
+                        </svg>
+                    </div>
+                    <h3 data-i18n="service2-title">Soins & Traitements</h3>
+                    <p data-i18n="service2-desc">Traitements de caries, endodontie, extractions et soins spécialisés
+                        adaptés à vos besoins.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="30" cy="30" r="20" stroke="#4A90E2" stroke-width="2" />
+                            <path d="M20 30 Q30 40 40 30" stroke="#4A90E2" stroke-width="2" fill="none" />
+                            <circle cx="25" cy="25" r="2" fill="#4A90E2" />
+                            <circle cx="35" cy="25" r="2" fill="#4A90E2" />
+                        </svg>
+                    </div>
+                    <h3 data-i18n="service3-title">Esthétique du Sourire</h3>
+                    <p data-i18n="service3-desc">Blanchiment dentaire, facettes, et solutions esthétiques pour un
+                        sourire éclatant et confiant.</p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="15" y="15" width="30" height="30" rx="5" stroke="#7ED957" stroke-width="2" />
+                            <path d="M25 30 L28 33 L35 26" stroke="#7ED957" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3 data-i18n="service4-title">Soins Préventifs</h3>
+                    <p data-i18n="service4-desc">Conseils personnalisés, nettoyages professionnels et programmes de
+                        prévention pour une santé dentaire durable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="video-title">Découvrez Notre Centre</h2>
+            <div class="video-container">
+                <video controls poster="assets/images/smile-bg.png" id="clinicVideo">
+                    <source src="assets/videos/video.mp4" type="video/mp4">
+                    <p data-i18n="video-not-supported">Votre navigateur ne supporte pas la lecture de vidéos.</p>
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section id="appointment" class="appointment">
+        <div class="container">
+            <h2 class="section-title" data-i18n="appointment-title">Prendre Rendez-vous</h2>
+            <p class="appointment-subtitle" data-i18n="appointment-subtitle">Remplissez le formulaire ci-dessous et nous
+                vous contacterons via WhatsApp</p>
+
+            <form id="appointmentForm" class="appointment-form">
+                <div class="form-group">
+                    <label for="name" data-i18n="form-name">Nom complet</label>
+                    <input type="text" id="name" name="name" required placeholder="">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone" data-i18n="form-phone">Téléphone</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="">
+                </div>
+
+                <div class="form-group">
+                    <label for="date" data-i18n="form-date">Date souhaitée</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="service" data-i18n="form-service">Service (optionnel)</label>
+                    <select id="service" name="service">
+                        <option value="" data-i18n="form-service-select">-- Sélectionnez un service --</option>
+                        <option value="general" data-i18n="form-service-general">Dentisterie Générale</option>
+                        <option value="treatment" data-i18n="form-service-treatment">Soins & Traitements</option>
+                        <option value="aesthetic" data-i18n="form-service-aesthetic">Esthétique du Sourire</option>
+                        <option value="preventive" data-i18n="form-service-preventive">Soins Préventifs</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="description" data-i18n="form-description">Description (optionnel)</label>
+                    <textarea id="description" name="description" rows="4" placeholder=""></textarea>
+                </div>
+
+                <button type="submit" class="submit-button" data-i18n="form-submit">Envoyer la demande</button>
+            </form>
+
+            <div id="confirmationMessage" class="confirmation-message" style="display: none;">
+                <p data-i18n="form-confirmation">✓ Votre demande a été envoyée avec succès ! Nous vous contacterons
+                    bientôt.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section id="map" class="map-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="map-title">Notre Localisation</h2>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.8!2d-2.3294743!3d34.9231512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDU1JzIzLjMiTiAywrAxOSc0Ni4xIlc!5e0!3m2!1sen!2sma!4v1234567890"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <div class="address-info">
+                <p class="address" data-i18n="address">📍 1er étage, n°74 rue El Moukawama, Berkane 63300</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact-title">Contactez-nous</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h3 data-i18n="contact-phone-label">Téléphone</h3>
+                    <a href="tel:0607505028" class="contact-link">0607-505028</a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">🕒</div>
+                    <h3 data-i18n="contact-hours-label">Horaires</h3>
+                    <p data-i18n="contact-hours">Fermé – Ouvre à 9h lundi</p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">📱</div>
+                    <h3 data-i18n="contact-instagram-label">Instagram</h3>
+                    <a href="https://www.instagram.com/perfect_smile_specialized/" target="_blank"
+                        rel="noopener noreferrer" class="contact-link">@perfect_smile_specialized</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews">
+        <div class="container">
+            <h2 class="section-title" data-i18n="reviews-title">Avis de nos Patients</h2>
+            <div class="rating-display">
+                <span class="stars">⭐⭐⭐⭐⭐</span>
+                <span class="rating-text">4.9 / 5</span>
+            </div>
+
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text" data-i18n="review1-text">Service excellent et professionnel. Le Dr. Haddou
+                        est très attentive et rassurante. Je recommande vivement !</p>
+                    <p class="review-author" data-i18n="review1-author">— Fatima Z.</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text" data-i18n="review2-text">مركز رائع ونظيف جدا. الدكتورة سلمى محترفة وتهتم
+                        براحة المريض. شكرا جزيلا</p>
+                    <p class="review-author" data-i18n="review2-author">— أحمد م.</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text" data-i18n="review3-text">Très satisfait du résultat de mon blanchiment
+                        dentaire. Équipe accueillante et centre moderne. Merci !</p>
+                    <p class="review-author" data-i18n="review3-author">— Karim B.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-i18n="clinic-name">Centre Dentaire – Perfect Smile</h3>
+                    <p data-i18n="footer-doctor">Dr. Salma Haddou</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4 data-i18n="footer-address-title">Adresse</h4>
+                    <p data-i18n="address">1er étage, n°74 rue El Moukawama, Berkane 63300</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4 data-i18n="footer-contact-title">Contact</h4>
+                    <p>📞 <a href="tel:0607505028">0607-505028</a></p>
+                    <p>📱 <a href="https://www.instagram.com/perfect_smile_specialized/" target="_blank"
+                            rel="noopener noreferrer">Instagram</a></p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p data-i18n="footer-copyright">&copy; 2024 Centre Dentaire Perfect Smile. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
